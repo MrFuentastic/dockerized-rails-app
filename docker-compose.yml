@@ -1,0 +1,12 @@
+app:
+
+  build: .
+
+  environment:
+    RAILS_ENV: $RAILS_ENV
+
+  links:
+    - db
+
+  ports:
+    - "3000:3000"
